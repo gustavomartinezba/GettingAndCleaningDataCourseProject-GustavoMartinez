@@ -1,14 +1,16 @@
 # Code Book
 
-More information is in /UCI HAR Dataset/README.txt
+More information is provided in /UCI HAR Dataset/README.txt. The description given here of the features is taken, slightly modified, from /UCI HAR Dataset/features_info.txt.
 
 ### Activities
 
-The first column ("activity") is a character vector specifying the activity performed by the subject during each measurement.
+The first column ("activity") is a character vector specifying the activity performed by the subject during each measurement. There are six activities: "laying", "sitting", "standing", "walking", "walking downstairs", and "walking upstairs".
 
+### Subjects
 
+The second column is an integer vector specifying which of the 30 volunteers (labeled by integers 1:30) each measurement refers to. In the original data the subjects were divided into two sets: nine of them (labeled 2, 4, 9, 10, 12, 13, 18, 20 and 24) comprised the "test" group while the other 21 were the "training" set.
 
-### Features(variables 3-68)
+### Features (variables 3-68)
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAccXYZ and tGyroXYZ. These 
 time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter 
