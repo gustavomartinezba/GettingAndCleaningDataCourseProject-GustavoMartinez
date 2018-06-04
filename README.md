@@ -32,7 +32,7 @@ I made use here of "activity_labels.txt", editing the text a bit to make it nice
 
 (Instructions: Appropriately labels the data set with descriptive variable names.) 
 
-As above, here I used what was given ("features.txt"). To keep the names short I left them almost as they were in raw (removing superfluous characters); they can be easily understood from the original description (from "features_info.txt), which I included in the Code Book with appropiate but minimal modifications. For readability I left the [Camel Case](https://en.wikipedia.org/wiki/Camel_case) just as it was.
+As above, here I used what was given ("features.txt"). To keep the names short I left them almost as they were in raw (removing superfluous characters); they can be easily understood from the original description (from "features_info.txt"), which I included in the Code Book with appropiate but minimal modifications. For readability I left the [Camel Case](https://en.wikipedia.org/wiki/Camel_case) just as it was.
 
 ### Step 5
 
